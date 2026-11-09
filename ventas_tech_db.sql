@@ -116,7 +116,7 @@ VALUES
 -- 4. VALIDACIÓN
 -- ==========================================
 
-SELECT * FROM categorias;
-SELECT * FROM clientes;
-SELECT * FROM productos;
-SELECT * FROM ventas;
+SELECT * FROM categorias; -- esperado: 4 filas
+SELECT * FROM clientes;  -- esperado: 5 filas
+SELECT * FROM productos; -- esperado: 6 filas
+SELECT * FROM ventas;    -- esperado: 10 filas
